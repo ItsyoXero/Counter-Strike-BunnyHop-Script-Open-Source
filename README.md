@@ -14,8 +14,9 @@ Run PyCharm or Command Prompt as Administrator
 
 Install Python Packages
 Open PyCharm Terminal or Command Prompt and run:
+```bash
 pip install pymem keyboard pystray pillow
-
+```
 Run the Script in PyCharm
 
 Paste the BunnyHop code into a Python file (e.g., bunnyhop.py)
@@ -34,7 +35,9 @@ Install PyInstaller:
 pip install pyinstaller
 
 Create the executable:
+```bash
 pyinstaller bunnyhop.py --onefile
+```
 
 Find bunnyhop.exe inside the dist folder
 
